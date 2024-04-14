@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="730.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo_hbb.HelloController">
+   <children>
+      <Label alignment="CENTER" layoutX="258.0" layoutY="27.0" prefHeight="44.0" prefWidth="214.0" text="File write &amp; read">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="path" layoutX="137.0" layoutY="89.0" prefHeight="34.0" prefWidth="302.0" promptText="Cesta ke složce" />
+      <TextArea fx:id="text" layoutX="189.0" layoutY="217.0" prefHeight="214.0" prefWidth="250.0" promptText="Obsah souboru" />
+      <TextField fx:id="filename" layoutX="137.0" layoutY="152.0" prefHeight="34.0" prefWidth="302.0" promptText="název souboru který chceš vytvořit nebo editovat" />
+      <Button layoutX="465.0" layoutY="89.0" mnemonicParsing="false" onAction="#browse" prefHeight="34.0" prefWidth="74.0" text="Browse Folder" />
+      <Button layoutX="189.0" layoutY="459.0" mnemonicParsing="false" onAction="#create" prefHeight="44.0" prefWidth="250.0" text="CREATE" />
+      <Button layoutX="465.0" layoutY="152.0" mnemonicParsing="false" onAction="#read" prefHeight="34.0" prefWidth="74.0" text="Read" />
+   </children>
+</AnchorPane>

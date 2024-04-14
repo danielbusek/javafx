@@ -1,0 +1,32 @@
+.button {
+    -fx-background-color: #4CAF50; /* Barva pozadí tlačítka */
+    -fx-text-fill: white; /* Barva textu */
+    -fx-font-size: 14px; /* Velikost písma */
+    -fx-padding: 8px 16px; /* Vnitřní odsazení */
+    -fx-background-radius: 8px; /* Zaoblené rohy */
+    -fx-border-radius: 8px; /* Zaoblené rohy */
+    -fx-border-color: #4CAF50; /* Barva ohraničení */
+    -fx-border-width: 2px; /* Šířka ohraničení */
+    -fx-cursor: hand; /* Kurzor při najetí myši */
+    -fx-transition: all 0.3s; /* Tranzice pro animaci změn */
+}
+
+/* Efekt hover pro tlačítko Start */
+.button.start-button:hover {
+    -fx-background-color: #45a049; /* Změna barvy pozadí */
+}
+
+/* Efekt hover pro tlačítko Stop */
+.button.stop-button:hover {
+    -fx-background-color: #f44336; /* Změna barvy pozadí */
+}
+
+/* Efekt hover pro tlačítko Pause */
+.button.pause-button:hover {
+    -fx-background-color: #ff9800; /* Změna barvy pozadí */
+}
+
+/* Efekt hover pro tlačítko Reset */
+.button.reset-button:hover {
+    -fx-background-color: #607d8b; /* Změna barvy pozadí */
+}
